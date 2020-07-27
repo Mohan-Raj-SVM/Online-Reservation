@@ -1,0 +1,81 @@
+body{
+    background: url(train.jpg);
+    background-repeat: none;
+    background-size: cover;
+    color: white;
+    font-family: calibri;
+}
+input{
+    width: 55%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    border-color: dodgerblue;
+}
+label{
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 12px;
+}
+ul{
+    list-style: none;
+    padding-right: 50px;
+    margin: 0px;
+    cursor: pointer;
+}
+ul li {
+    border-radius: 2mm;
+    margin: 1px;
+    opacity: 95%;
+    float: left;
+    line-height: 39px;
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+}
+ul li a{
+    border-radius: 2mm;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover
+{
+    background-color: red;
+}
+ul li ul li {
+    display: none;
+} 
+ul li:hover ul li{
+    display : block;
+}
+div{
+    border-radius: 5mm;
+    background-image: url(bg);
+    background: white fixed;
+    opacity: 80%;
+    text-align: center;
+    margin: 100px auto;
+    margin-top: 120px;
+    width: 24%;
+    padding: 30px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-family: calibri;
+    color: black;
+}
+button{
+    width: 80px;
+    height: 30px;
+    background: black;
+    font-family: calibri;
+    text-decoration: none;
+    border-radius: 3mm;
+}
